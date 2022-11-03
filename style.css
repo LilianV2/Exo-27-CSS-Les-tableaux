@@ -1,0 +1,37 @@
+table td {
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+}
+
+.table1 {
+    caption-side: top;
+    border-collapse: separate;
+    empty-cells: hide;
+}
+
+.table2 {
+    caption-side: bottom;
+    border-collapse: separate;
+    empty-cells: show;
+}
+
+.table3 {
+    caption-side: top;
+    border-collapse: collapse;
+    empty-cells: hide;
+}
+
+.table4 {
+    caption-side: bottom;
+    border-collapse: collapse;
+    empty-cells: hide;
+}
+
+td:nth-child(even) {
+    text-transform: capitalize;
+}
+
+td:nth-child(odd) {
+    background-color: cornflowerblue;
+}
